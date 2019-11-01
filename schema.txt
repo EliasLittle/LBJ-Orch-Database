@@ -1,0 +1,12 @@
+regular (
+  Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  Composer TEXT,
+  Arranger TEXT,
+  Title TEXT  NOT NULL,
+  Type ENUM('Full', 'String', 'N/A'),
+  Grade INT
+  PML ENUM('Y','N','N/A'),
+  Piano ENUM('Y','N','N/A'),
+  History TEXT,
+  Comments TEXT
+)
